@@ -1,0 +1,177 @@
+.input-box{
+    margin-top: 0.40rem;
+    background-color: #fff;
+    height: 1.76rem;
+    padding-left: 0.30rem;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 0.30rem;
+    color: #334364;
+    &::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: -webkit-linear-gradient(top, transparent 50%, #f1f3f6 50%) no-repeat bottom left;
+        background-size: 100% 1px;
+        width: 100%;
+        height: 1px;
+    }
+}
+.input-box i{
+    display: inline-block;
+    width: 0.26rem;
+    height: 0.30rem;
+    vertical-align: top;
+    margin-top: 0.29rem;
+    margin-right: 0.09rem;
+}
+.input-box input{
+    display: inline-block;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    background-color: #fff;
+    width: 5rem;
+    vertical-align: top;
+    margin-top: 0.22rem;
+    margin-left: 0.30rem;
+    font-size: 0.30rem;
+}
+.tel-box{
+    height: 0.88rem;
+    line-height: 0.88rem;
+    & i{
+        background: url(./img/i-tel.png) no-repeat top center;
+        background-size: 0.26rem 0.30rem;
+    }
+}
+.password-box{
+    height: 0.88rem;
+    line-height: 0.88rem;
+    & i{
+        background: url(./img/i-password.png) no-repeat top center;
+        background-size: 0.26rem 0.30rem;
+    }
+}
+a.btn-login{
+    display: block;
+    width: 6.90rem;
+    height: 0.98rem;
+    line-height: 0.98rem;
+    background-color: #1aad19;
+    font-size: 0.30rem;
+    text-align: center;
+    border-radius: 0.10rem;
+    color: #fff;
+    margin: 0.40rem auto 0;
+    &:active{
+        background-color: #0ba20a;
+    }
+}
+.forget-register{
+    height: 0.28rem;
+    line-height: 0.28rem;
+    font-size: 0.28rem;
+    padding: 0 0.30rem;
+    box-sizing: border-box;
+    margin-top: 0.30rem;
+    & a.login-forget{
+        float: left;
+        color: #3974e6;
+    }
+    & a.login-register{
+        float: right;
+        color: #3974e6;
+    }
+}
+.social-account{
+    padding: 0 0.30rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 1.20rem;
+}
+.social-acc-title{
+    font-size: 0.30rem;
+    line-height: 0.30rem;
+    color: #999;
+    text-align: center;
+    overflow: hidden;
+    height: 0.30rem;
+    width: 100%;
+    position: relative;
+    & .social-line{
+        position: absolute;
+        z-index: 1000;
+        width: 100%;
+        height: 1px;
+        background: -webkit-linear-gradient(top, #dadde3 50%, transparent 50%) no-repeat top left;
+        background-size: 100% 1px;
+        margin-top: 0.14rem;
+    }
+    & .social-acc-title-text{
+        position: absolute;
+        top: 0;
+        z-index: 1010;
+        width: 2.70rem;
+        height: 0.30rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #f6f7f9;
+    }
+}
+.social-choose{
+    overflow: hidden;
+    height: 1.70rem;
+    text-align: center;
+    margin-top: 0.40rem;
+    & li{
+        height: 1.70rem;
+        width: 1.20rem;
+        display: inline-block;
+        & i{
+            display: block;
+            width: 0.98rem;
+            height: 0.98rem;
+            margin: 0 auto;
+            &:active{
+                opacity: 0.8;
+            }
+        }
+        & p{
+            color: #878f9d;
+            font-size: 0.26rem;
+            text-align: center;
+            margin-top: 0.26rem;
+        }
+    }
+    & li:first-child{
+        & i{
+            background: url(./img/tencent-login.png) no-repeat top center;
+            background-size: 0.98rem 1.96rem;
+            background-position: 0 0;
+        }
+    }
+    & li:last-child{
+        margin-left: 0.90rem;
+        & i{
+            background: url(./img/tencent-login.png) no-repeat top center;
+            background-size: 0.98rem 1.96rem;
+            background-position: 0 -0.98rem
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

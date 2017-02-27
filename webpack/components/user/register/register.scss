@@ -1,0 +1,50 @@
+.register{
+    & .input-box{
+        height: 2.64rem;
+    }
+    & .tel-box{
+        position: relative;
+        & .get-code{
+            width: 2.60rem;
+            height: 0.88rem;
+            line-height: 0.88rem;
+            position: absolute;
+            top: 0;
+            right: 0;
+            text-align: center;
+            color: #999;
+            &::after{
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                background: -webkit-linear-gradient(right, transparent 50%, #f1f3f6 50%) no-repeat top left;
+                background-size: 1px 100%;
+                width: 1px;
+                height: 100%;
+            }
+            &.active{
+                background-color: #578fff;
+                color: #fff;
+                &:active{
+                    background-color: #427df2;
+                }
+            }
+            &.time{
+                background-color: #878f9d;
+            }
+        }
+
+    }
+    & .code-box{
+        height: 0.88rem;
+        line-height: 0.88rem;
+        & i{
+            width: 0.27rem 0.30rem;
+            background: url(./img/i-code.png) no-repeat top center;
+            background-size: 0.27rem 0.30rem;
+            margin-top: 0.28rem;
+        }
+    }
+
+}

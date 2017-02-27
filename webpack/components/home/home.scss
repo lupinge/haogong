@@ -1,0 +1,135 @@
+.user-msg{
+    height: 3.20rem;
+    background-color: #2963d8;
+    overflow: hidden;
+    & .user-avatar{
+        display: block;
+        width: 1.52rem;
+        height: 1.52rem;
+        border-radius: 50%;
+        margin: 0.30rem auto 0;
+    }
+    & .welcome-slogan{
+        font-size: 0.24rem;
+        color: #fff;
+        text-align: center;
+        margin-top: 0.4rem;
+        & span{
+            font-size: 0.32rem;
+        }
+    }
+}
+.home-content{
+    overflow: hidden;
+    background-color: #fff;
+    padding-bottom: 1rem;
+}
+.location{
+    width: 2.94rem;
+    height: 0.50rem;
+    margin: 0.60rem auto 0;
+    color: #334364;
+    line-height: 0.50rem;
+    text-align: center;
+    font-size: 0.24rem;
+    border-radius: 0.7rem;
+    border: 1px solid #878f9d;
+    padding-left: 0.34rem;
+    padding-right: 0.66rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    & i{
+        position: absolute;
+        top: 0.21rem;
+        right: 0.33rem;
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-left: 0.08rem solid transparent;
+        border-right: 0.08rem solid transparent;
+        border-top: 0.08rem solid #878f9d;
+    }
+}
+
+.home-nav{
+    overflow: hidden;
+    & li{
+        float: left;
+        width: 2.50rem;
+        height: 1.60rem;
+        margin-top: 0.60rem;
+        & .home-icon{
+            width: 1.18rem;
+            height: 1.18rem;
+            margin: 0 auto;
+            &:active{
+                opacity: 0.8;
+            }
+        }
+        & p{
+            text-align: center;
+            font-size: 0.24rem;
+            color: #333;
+            line-height: 0.24rem;
+            margin-top: 0.20rem;
+        }
+    }
+    & li:nth-child(1) .home-icon{
+        background: url(./img/home-icon.png) no-repeat center center;
+        background-position: 0 0;
+        background-size: 1.18rem 9.44rem;
+    }
+    & li:nth-child(2) .home-icon{
+        background: url(./img/home-icon.png) no-repeat center center;
+        background-position: 0 -1.18rem;
+        background-size: 1.18rem 9.44rem;
+    }
+    & li:nth-child(3) .home-icon{
+        background: url(./img/home-icon.png) no-repeat center center;
+        background-position: 0 -2.36rem;
+        background-size: 1.18rem 9.44rem;
+    }
+    & li:nth-child(4) .home-icon{
+        background: url(./img/home-icon.png) no-repeat center center;
+        background-position: 0 -3.54rem;
+        background-size: 1.18rem 9.44rem;
+    }
+    & li:nth-child(5) .home-icon{
+        background: url(./img/home-icon.png) no-repeat center center;
+        background-position: 0 -4.72rem;
+        background-size: 1.18rem 9.44rem;
+    }
+    & li:nth-child(6) .home-icon{
+        background: url(./img/home-icon.png) no-repeat center center;
+        background-position: 0 -5.90rem;
+        background-size: 1.18rem 9.44rem;
+    }
+    & li:nth-child(7) .home-icon{
+        background: url(./img/home-icon.png) no-repeat center center;
+        background-position: 0 -7.08rem;
+        background-size: 1.18rem 9.44rem;
+    }
+    & li:nth-child(8) .home-icon{
+        background: url(./img/home-icon.png) no-repeat center center;
+        background-position: 0 -8.26rem;
+        background-size: 1.18rem 9.44rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
